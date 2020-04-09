@@ -1,0 +1,19 @@
+# Precompiled Python
+*.pyc
+*.pyd
+
+# Docker volumes
+/db-data
+/cache-data
+
+# Local env (dotenv, virtualenv)
+.env
+env
+
+# IDE preferences
+.idea
+.vscode
+
+# Misc
+.DS_Store
+.coverage
